@@ -1,59 +1,73 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Rachi</title>
-  </head>
 
-  <body>
-    <!---Menu de navegação-->
-    <div id="topnav">
-      <img src="" alt="Rachi" />
-      <a href="#funcionalidades">Funcionalidades</a>
-      <a href="#app">App</a>
-      <a href="#planos">Planos</a>
-      <a href="#contato">Contato</a>
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="shortcut icon" type="image/png" href="">
+  <link rel="stylesheet" type="text/css" href="rachi.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300&family=Sora:wght@300&display=swap"
+    rel="stylesheet">
+  <title>Rachi</title>
+</head>
+
+<body>
+  <!---Menu de navegação-->
+  <!---  
+        <li><a href="#funcionalidades">Funcionalidades</a></li>
+        <li><a href="#app">App</a></li>
+        <li><a href="#planos">Planos</a></li>
+        <li><a href="#contato">Contato</a></li>
+    -->
+  <nav>
+    <img src="img/Group 33553logo.png" alt="Rachi" />
+    <ul>
+      <li>Funcionalidades</li>
+      <li>App</li>
+      <li>Planos</li>
+      <li>Contato</li>
+    </ul>
+  </nav>
+  <br>
+
+  <!-- primeiro bloco: Home-->
+
+  <secion id="banner">
+    <div>
+      <h1>Rachi,</h1>
+      <p>é tudo que você</p>
+      <p>prescisa em um só lugar</p>
+
+      <br>
+      <button id="btn">Cadastre-se</button>
     </div>
-    <!-- primeiro bloco: Home-->
-    <div style="background-color:rgb(188, 221, 250);">
-      <h1>
-        Rachi,<br />é tudo que você <br />
-        prescisa em um só lugar.
-      </h1>
-      <button>Cadastrar-se</button>
-      <img src=" " alt="imagem1" />
-      
+
+    <div class="block1--image">
+      <img class="img1" src="img/Working from anywhere-rafiki 1.png" alt="imagem of man and tree" />
     </div>
-    <!--Segundo bloco: Funcionalidades-->
-    <div id="funcionalidades">
-      <ul>
-        <img src="" alt="perfil" />
-        <p>
-          Crie conexôes <br />
-          Lorem ipsum dolor sit.
-        </p>
-        <img src="" alt="shield" />
-        <p>
-          100% gratuito <br />
-          Lorem ipsum dolor sit.
-        </p>
-        <img src="" alt="emoji" />
-        <p>
-          compartilhamento <br />
-          Lorem ipsum dolor sit.
-        </p>
-      </ul>
+  </secion>
+
+  <section id="about">
+    <h2>Como Funciona</h2>
+    <div id="cards-about">
+      <div class="card">
+        <img src="img/svg+xml.png" alt="conection">
+        <h3>Crie Conexões</h3>
+        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ipsa, ut!</p>
+      </div>
+      <div class="card">
+        <img src="img/carbon_security.png" alt="shield">
+        <h3>100% Gratuito</h3>
+        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ipsa, ut!</p>
+      </div>
+      <div class="card">
+        <img src="img/heroicons-outline_emoji-happy.png" alt="emoji">
+        <h3>Compartilhamento</h3>
+        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ipsa, ut!</p>
+      </div>
     </div>
-    <!--Terceiro bloco : App-->
-    <div id="app" style="background-color:rgb(188, 221, 250);">
-      <h2>Baixe nosso app para desfrutar mais!</h2>
-      <p>
-        Amet in elementum nulla scelerisque dui, egestas at. Elit consectetur
-        turpis elementum amet vitae et etiam nec. Varius volutpat hac adipiscing
-        tincidunt pretium.
-      </p>
-      <img src="" alt="" />
-    </div>
-  </body>
+  </section>
+</body>
 </html>
